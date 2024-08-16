@@ -46,7 +46,7 @@ const App = () => {
             <Footer />
           </>
         } />
-        <Route path="/services" element={ // Add Services route
+        <Route path="/services" element={
           <>
             <SeoManager
               page="services"
