@@ -1,21 +1,21 @@
-import React, { Suspense, lazy } from 'react';
-import { Route, Routes } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import SeoManager from './components/SeoManager';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { ngoKeywords } from './keywords';
 
-const NavigationBar = lazy(() => import('./components/Navbar'));
-const Home = lazy(() => import('./components/Home'));
-const Programs = lazy(() => import('./components/Programs'));
-const About = lazy(() => import('./components/About'));
-const Services = lazy(() => import('./components/Services')); // Lazy load Services
-const Contact = lazy(() => import('./components/Contact'));
-const Footer = lazy(() => import('./components/Footer'));
+import NavigationBar from './components/Navbar';
+import Home from './components/Home';
+import Programs from './components/Programs';
+import About from './components/About';
+import Services from './components/Services'; 
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+    <Router>
       <NavigationBar />
       <Routes>
         <Route path="/" element={
@@ -29,7 +29,7 @@ const App = () => {
             <Home />
             <About />
             <Programs />
-            <Services />            
+            <Services />
             <Contact />
             <Footer />
           </>
@@ -83,7 +83,7 @@ const App = () => {
           </>
         } />
       </Routes>
-    </Suspense>
+    </Router>
   );
 };
 
