@@ -104,7 +104,7 @@ const Contact = () => {
                 <h2 className="ftco-heading-2">Contact Us</h2>
                 <div className="block-23 mb-3">
                   <ul>
-                  {/*<span className="icon icon-map-marker"></span>*/}
+                
                     <li><a href="#"><span className="icon icon-phone"></span><span className="text">+91 9096609309<br/>
                     +91 9822987590</span></a></li>
                     <li><a href="#"><span className="icon icon-envelope"></span><span className="text">shri.gokuldas.s.shirodker.trust@gmail.com</span></a></li>
