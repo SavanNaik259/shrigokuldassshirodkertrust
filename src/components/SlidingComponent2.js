@@ -35,7 +35,6 @@ const SlidingComponent2 = ({ images }) => {
           </div>
         ))}
       </Slider>
-     {/* <div className="caption2">Caputre Your Moments</div>*/}
       <button className="prev-btn3" onClick={prevSlide}>
         <FontAwesomeIcon icon={faChevronLeft} />
       </button>
