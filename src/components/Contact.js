@@ -105,9 +105,9 @@ const Contact = () => {
                 <div className="block-23 mb-3">
                   <ul>
                 
-                    <li><a href="#"><span className="icon icon-phone"></span><span className="text">+91 9096609309<br/>
-                    +91 9822987590</span></a></li>
-                    <li><a href="#"><span className="icon icon-envelope"></span><span className="text">shri.gokuldas.s.shirodker.trust@gmail.com</span></a></li>
+                    <li><span className="icon icon-phone"></span><span className="text">+91 9096609309<br/>
+                    +91 9822987590</span></li>
+                    <li><span className="icon icon-envelope"></span><span className="text">shri.gokuldas.s.shirodker.trust@gmail.com</span></li>
                   </ul>
                 </div>
               </div>
