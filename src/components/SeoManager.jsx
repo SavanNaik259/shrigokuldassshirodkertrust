@@ -8,7 +8,7 @@ const SeoManager = ({ page, keywords, title, description }) => {
     description: description || "Welcome to Shri. Gokuldas S Shirodker Trust. Explore our mission, programs, and how we are making an impact in India.",
     keywords: keywords.join(", "),
     image: "images/IMG-20240812-WA0027.jpg",
-    url: "https://www.sgsstrust.org",
+    url: "https://shrigokuldassshirodkertrust.netlify.app/",
     type: "WebSite",
     businessName: "Shri. Gokuldas S Shirodker Trust",
     streetAddress: "Margao goa",
