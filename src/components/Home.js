@@ -9,7 +9,7 @@ const Home =()=>{
   return(
     <>
      
-    <div className="bg-main">
+    <div>
    <SlidingComponent2 images={images} />
     </div>
     </>
