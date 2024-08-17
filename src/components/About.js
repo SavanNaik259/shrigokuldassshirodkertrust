@@ -10,7 +10,10 @@ const About =()=>{
       <hr className='w-25 mx-auto'/>
       <div className="mb-3 r-card" style={{ maxWidth: '150vw',border:'none' }}>
   <div className="row">
-    <div className="col-md-12 d-flex justify-content-center align-items-center">
+    <div className="col-md-4 d-flex justify-content-center align-items-center">
+     <LazyLoadImage effect="blur" src={aimg1} className=" about-img img-fluid text-center lazy-load-image" alt="..."/>
+    </div>
+    <div className="col-md-8 d-flex justify-content-center align-items-center">
       <div className="card-body">
         <p className="card-text fs-3 text-center lh-lg">
 Late Gokuldas S Shirodker was an eminent personality of Margao, Goa 
