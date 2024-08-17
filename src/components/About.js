@@ -1,7 +1,4 @@
 import React from "react";
-import aimg1 from './static/Images/IMG-20240812-WA0027.jpg';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/blur.css';
 const About =()=>{
     return (
       <>
