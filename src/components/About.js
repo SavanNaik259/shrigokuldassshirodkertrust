@@ -6,9 +6,14 @@ const About =()=>{
     return (
       <>
        <section className="about-section row-width">
-      <h1 className="common-text">about <span className="end-color">us</span></h1>
+      <h1 className="common-text">about us</h1>
       <hr className='w-25 mx-auto'/>
-    <div className="col-md-8 d-flex justify-content-center align-items-center">
+      <div className="mb-3 r-card" style={{ maxWidth: '150vw',border:'none' }}>
+  <div className="row">
+    <div className="col-md-4 d-flex justify-content-center align-items-center">
+     <LazyLoadImage effect="blur" src={aimg1} className=" about-img img-fluid text-center lazy-load-image" alt="..."/>
+    </div>
+    <div className="col-md-12 d-flex justify-content-center align-items-center">
       <div className="card-body">
         <p className="card-text fs-3 text-center lh-lg">
 Late Gokuldas S Shirodker was an eminent personality of Margao, Goa 
@@ -19,6 +24,8 @@ After passing of Shri Gokuldas S Shirodker his family with an intension to conti
 
       </div>
     </div>
+  </div>
+</div>
 </section>
    </>
     );
