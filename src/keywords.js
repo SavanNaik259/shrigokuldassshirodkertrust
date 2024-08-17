@@ -1,8 +1,8 @@
-const websiteOwner = "Shri. Gokuldas S Shirodker Trust"; 
-const websiteURL = "https://www.sgsstrust.org";
+const websiteOwner = "Shri. Gokuldas S Shirodker"; 
+const websiteURL = "https://shrigokuldassshirodkertrust.netlify.app/";
 
 const ngoKeywords = [
-  `${websiteOwner} NGO`, `${websiteURL} charity`, `${websiteOwner} social work`, `${websiteOwner} trust`,"Amey gokuldas","Amey gokuldas shirodker","Amey gokuldas trust","best NGOs in India", "NGO in India", "top NGOs in India", "charitable trust India","donate to charity India", "how to donate to NGO", "NGO for child education", "women empowerment NGO", "free education for poor children India", "NGO jobs India", "volunteer with NGO India", "NGO donations India", "healthcare NGO India", 
+  `${websiteOwner} NGO`, `${websiteURL} charity`, `${websiteOwner} social work`, `${websiteOwner} trust`,"Amey gokuldas","Amey gokuldas shirodker","Amey gokuldas trust","best NGOs in India", "NGO in India", "top NGOs in India", "charitable trust India","donate to charity India", "how to donate to NGO", "NGO for child education", "women empowerment NGO", "free education for poor children India", "NGO jobs India", "volunteer with NGO India", "NGO donations India", "https://shrigokuldassshirodkertrust.netlify.app/", "https://shrigokuldassshirodkertrust.netlify.app/about", "https://shrigokuldassshirodkertrust.netlify.app/programs", "https://shrigokuldassshirodkertrust.netlify.app/services", "https://shrigokuldassshirodkertrust.netlify.app/contact", "healthcare NGO India", 
   "environmental NGO India", "NGO for rural development", "education for underprivileged children", 
   "support NGO causes", "NGO for healthcare", "community development programs India",
   "NGO for orphans India", "charity organizations in India", "how to start an NGO in India",
