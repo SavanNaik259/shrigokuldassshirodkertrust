@@ -26,7 +26,8 @@ import showimg40 from './static/Images/IMG-20240815-WA0011.jpg';
 import showimg41 from './static/Images/IMG-20240815-WA0009.jpg';
  import showimg42 from './static/Images/IMG-20240815-WA0007.jpg';
  import showimg43 from './static/Images/IMG-20240815-WA0005.jpg';
-import showimg44 from './static/Images/IMG-20240812-WA0027.jpg';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 const About =()=>{
     return (
       <>
