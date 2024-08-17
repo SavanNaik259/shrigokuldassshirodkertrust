@@ -100,7 +100,7 @@ const Contact = () => {
                 <p>Late Gokuldas S Shirodker was a dedicated development officer at LIC and a passionate social worker in Margao, Goa. He held significant positions, including Vice Chairperson of Margao Municipal Council and Vice President of the Kho Kho Federation of India, earning multiple awards for his contributions. In his memory, the Shri Gokuldas S Shirodker Trust was established to continue his legacy of promoting socio-cultural harmony and supporting Indian sports.</p>
                 <ul className="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                   <li className="ftco-animate"><a href="https://www.facebook.com/amey.shirodker.9"><span className="icon-facebook"></span></a></li>
-                  <li className="ftco-animate"><a href="https://www.instagram.com/ameyshirodker?igsh=MXBjZjVoYmdpcHltMQ=="><span className="icon-instagram"></span></a></li>
+                  <li className="ftco-animate"><a href="https://www.instagram.com/gokuldasshirodker?igsh=MWloYmp0Mm51Ymk1MA=="><span className="icon-instagram"></span></a></li>
                 </ul>
               </div>
             </div>
