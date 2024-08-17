@@ -333,9 +333,7 @@ header .headwe-nav {
    color:black!important;
 }
 @media screen and (max-width: 1050px) {
-.logo-dv img{
-  width:18%;
-}
+
   .slider-captions .slider-title {
      font-size: 42px; } }
 @media screen and (max-width: 810px) {
