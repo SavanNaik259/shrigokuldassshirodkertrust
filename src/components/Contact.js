@@ -20,7 +20,9 @@ const Contact = () => {
             </div>
             <div className="col-md-6 volunteer pl-md-5 ftco-animate">
               <h3 className="mb-3">Get In Touch With Us</h3>
-              <form action="#" className="volunter-form">
+  <form action="https://formsubmit.co/shri.gokuldas.s.shirodker.trust@gmail.com" method="POST"className="volunter-form">
+  <input type="hidden" name="_template" value="table"/>
+  <input type="hidden" name="_autoresponse" value="your custom message"/>
                 <div className="form-group">
                   <label htmlFor="firstName" className="form-label">First Name</label>
                   <input
