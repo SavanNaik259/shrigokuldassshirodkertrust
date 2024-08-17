@@ -16,7 +16,6 @@ import Footer from './components/Footer';
 const App = () => {
   return (
     <Router>
-      <NavigationBar />
       <Routes>
         <Route path="/" element={
           <>
@@ -26,6 +25,7 @@ const App = () => {
               title="Home - Shri. Gokuldas S Shirodker Trust"
               description="Welcome to Shri. Gokuldas S Shirodker Trust. Learn about our mission, vision, and the impactful work we do across India."
             />
+            <NavigationBar />
             <Home />
             <About />
             <Programs />
