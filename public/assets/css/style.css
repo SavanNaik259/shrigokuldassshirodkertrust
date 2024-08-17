@@ -318,7 +318,7 @@ header .headwe-nav {
   .logo-dv img{
     border-radius: 50%;
   float: left;
-  width:13%;
+  width:10%;
 }
 .logo-dv h1{
   /*float: left!important;*/
@@ -331,6 +331,12 @@ header .headwe-nav {
 .logo-dv span{
  /* float: left!important;*/
    color:black!important;
+}
+@media screen and (max-width: 768px) {
+
+  .logo-dv img{
+  width:18%;
+}
 }
 @media screen and (max-width: 1050px) {
 
