@@ -11,7 +11,7 @@ function Navbar() {
             <div className="row">
               <div className="col-md-3 logo-dv">
                 <img src="assets/images/logo.jpg" alt="Logo" />
-                <span><h1>SHRI GOKULDAS S SHIRODKER CHARITY</h1></span>
+                <span><h1>SHRI. GOKULDAS S SHIRODKER TRUST</h1></span>
               </div>
             </div>
           </div>
