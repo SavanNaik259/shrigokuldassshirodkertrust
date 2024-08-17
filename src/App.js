@@ -16,8 +16,8 @@ import Footer from './components/Footer';
 const App = () => {
   return (
     <Router>
-      <Routes>
     <NavigationBar />
+      <Routes>
         <Route path="/" element={
           <>
             <SeoManager
