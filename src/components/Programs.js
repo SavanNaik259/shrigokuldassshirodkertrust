@@ -42,15 +42,25 @@ import showimg40 from './static/Images/IMG-20240815-WA0011.jpg';
 import showimg41 from './static/Images/IMG-20240815-WA0009.jpg';
  import showimg42 from './static/Images/IMG-20240815-WA0007.jpg';
  import showimg43 from './static/Images/IMG-20240815-WA0005.jpg';
+import showimg44 from './static/Images/IMG-20240812-WA0027.jpg';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 const Programs =()=>{
   return(
     <>
 <div className="container row-width"> 
-<h1 className="text-center">Our Programs</h1>
+<h1 className="text-center">About Late Gokuldas S Shirodker</h1>
           <hr className='w-50 mx-auto' />
   <div className="row gx-1">
+   <div className="col-6">
+      <div className="d-flex justify-content-center align-items-center">
+        <div className="card">
+                  <div className="show-scale-img">
+          <LazyLoadImage effect="blur" src={showimg44} className="card-img-show lazy-load-image full-width" alt="..." />
+          </div>
+        </div>
+      </div>
+    </div>
     <div className="col-6">
       <div className="d-flex justify-content-center align-items-center">
         <div className="card">
