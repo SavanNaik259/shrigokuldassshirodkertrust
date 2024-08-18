@@ -48,6 +48,7 @@ After passing of Shri Gokuldas S Shirodker his family with an intension to conti
 </section>
  <div className="container row-width">
   <div className="row gx-1">
+ <h1 className="common-text">our <span className="end-color">events</span></h1>
         <div className="col-6">
       <div className="d-flex justify-content-center align-items-center">
         <div className="card">
