@@ -158,14 +158,14 @@ font-size: 1.5rem!important;
  /* height: 54vh; */
    height: 100%; 
 }
-.slide3 img {
+slide3 img {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 95%;
   /*height: 30vw;*/
-   height: 35vh;
+   height: 45vh;
    object-fit: cover;
 }
 .caption2 {
@@ -184,7 +184,7 @@ font-size: 1.5rem!important;
 }
 .prev-btn3, .next-btn3 {
   position: absolute;
-  top: 42%;
+  top: 50vh;
   transform: translateY(-50%);
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
