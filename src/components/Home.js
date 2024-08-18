@@ -1,6 +1,4 @@
 import React from "react";
-import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/blur.css';
 import SlidingComponent2 from './SlidingComponent2';
 const images = [
     { src: "assets/images/IMG-20240812-WA0000.jpg", alt: 'Image 1' },
