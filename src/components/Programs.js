@@ -22,7 +22,7 @@ const Programs =()=>{
   return(
     <>
 <div className="container row-width"> 
-<h1 className="text-center">About Late Gokuldas S Shirodker</h1>
+<h1 className="text-center">memories of Late Gokuldas S Shirodker</h1>
           <hr className='w-50 mx-auto' />
   <div className="row gx-1">
    <div className="col-6">
